@@ -1,0 +1,8 @@
+https://secure.php.net/manual/pt_BR/tutorial.whatsnext.php
+
+http://talks.php.net/
+
+https://mrezende.github.io/
+
+Para baixar:
+git clone https://github.com/nicolaskassalias/orientacao-objetos.git
