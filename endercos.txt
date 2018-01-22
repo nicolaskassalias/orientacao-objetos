@@ -13,3 +13,7 @@ git clone https://github.com/nicolaskassalias/orientacao-objetos.git
 =>MySql
 
 https://github.com/mysql/mysql-server
+
+http://carbon.nesbot.com/docs/  lida com datas (baixar o arquivo usá-lo)
+
+
