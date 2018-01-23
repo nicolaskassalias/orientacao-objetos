@@ -16,4 +16,19 @@ https://github.com/mysql/mysql-server
 
 http://carbon.nesbot.com/docs/  lida com datas (baixar o arquivo usá-lo)
 
+Criar formulário com php
+criado forumlario.html
+dentro atom  escrever html  <ENTER>
+para testar localhost/~php.01/orientacao-objetos/formulario.html
+
+get aparece na barra de enderecos <form action="ExibeInformacoes.php" method="get">
+get fica no histórico do navegador
+
+post nao aparece na barra de enderecos <form action="ExibeInformacoes.php" method="post">
+post envia no cabecalho da requisicao (usar qdo necessita seguranca)pode  criptografar https
+
+usuario root
+senha senha
+
+
 
