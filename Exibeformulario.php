@@ -14,6 +14,7 @@
         <h1>Cliente01</h1>
 
         <h3>Nome: <?= $cliente->nome ?></h3>
+        <h3>Nome: <?= $cliente->nome ?></h3>
         <h3>Email: <?= $cliente->email ?></h3>
 
   </body>
