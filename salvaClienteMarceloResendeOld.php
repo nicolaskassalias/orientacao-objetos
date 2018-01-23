@@ -17,10 +17,8 @@
       $cliente->nome = $_POST['nome'];
       $cliente->email = $_POST['email'];
       $sql = "INSERT INTO clientes (nome, email) values
-              (?, ?)";
-      $comando = $conexao->prepare($sql);
-      $comando->bind_param("ss", $cliente->nome, $cliente->email);
-      $saida = $comando->execute();
+              ('$cliente->nome', '$cliente->email')";
+      $saida = $conexao->query($sql);
     ?>
 
     <h1>Cliente</h1>
@@ -31,10 +29,8 @@
       //var_dump($conexao);
       ?>
     <h3>Erro: <?= $conexao->error ?> </h3>
-    <h3>SQL: <?= $sql ?></h3>
     <?php }
-      $comando->close();
       $conexao->close();
      ?>
-</body>
+  </body>
 </html>
